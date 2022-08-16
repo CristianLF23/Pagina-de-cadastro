@@ -52,7 +52,7 @@ function checkInputs() {
     return formControl.className === "form-control success";
   });
   if (formIsValid) {
-    window.location.href = "/concluido.html";
+    window.location.href = "./concluido.html";
   }
 }
 
