@@ -17,9 +17,29 @@ div {
 }
 
 .imagem {
-  width: 81vh;
+  width: 100vh;
 }
 
 h1 {
   color: white;
+}
+
+@media only screen and (max-width: 950px) {
+  div {
+    padding-top: 100px;
+    padding-bottom: 100%;
+  }
+  .imagem {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  div {
+    padding-top: 100px;
+    padding-bottom: 100%;
+  }
+  .imagem {
+    width: 80%;
+  }
 }

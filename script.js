@@ -32,7 +32,7 @@ function checkInputs() {
 
   if (passwordValue === "") {
     setErrorFor(password, "A senha é obrigatória");
-  } else if (passwordValue.lenght < 8) {
+  } else if (passwordValue.length < 8) {
     setErrorFor(password, "A senha precisa de no mínimo 8 caracteres");
   } else {
     setSuccessFor(password);
